@@ -21,7 +21,7 @@ sia = SentimentIntensityAnalyzer()
 translator = Translator()
 
 # YouTube Data API Key
-youtube_api_key = 'AIzaSyBroPCuLT3lsb0KlMrnP9SX86zQBMGPeSw'  
+youtube_api_key = 'api key'  
 
 # Initialize YouTube API client
 youtube = build('youtube', 'v3', developerKey=youtube_api_key)
